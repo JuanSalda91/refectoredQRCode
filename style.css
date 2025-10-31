@@ -59,3 +59,46 @@ body{
 .attribution a{
    color: hsl(228, 45%, 44%); 
 }
+
+@media (max-width: 430px) {
+  .qr-code {
+    width: 90vw; /* responsive width */
+    padding: 15px;
+  }
+
+  .qr-code img {
+    max-width: 80vw;
+    margin: 10px auto;
+  }
+
+  .qr-code h2 {
+    font-size: 1rem;
+  }
+
+  .qr-code p {
+    font-size: 0.9rem;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .qr-code {
+    width: 320px;  /* your original fixed width for desktops */
+    height: auto;  /* allow height to adjust */
+  }
+
+  .qr-code img {
+    max-width: 100%;
+  }
+
+  .qr-code h2 {
+    font-size: 1.5rem;
+  }
+
+  .qr-code p {
+    font-size: 1rem;
+  }
+}
