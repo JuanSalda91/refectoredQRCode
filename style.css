@@ -27,6 +27,7 @@ body{
     flex-direction: column;
     padding: 16px;
     text-align: center;
+    
 }
 
 .qr-code p{
@@ -62,7 +63,7 @@ body{
 
 @media (max-width: 430px) {
   .qr-code {
-    width: 90vw; /* responsive width */
+    width: 90vw;
     padding: 15px;
   }
 
@@ -86,8 +87,8 @@ body{
 
 @media (min-width: 1280px) {
   .qr-code {
-    width: 320px;  /* your original fixed width for desktops */
-    height: auto;  /* allow height to adjust */
+    width: 320px;
+    height: auto;
   }
 
   .qr-code img {
